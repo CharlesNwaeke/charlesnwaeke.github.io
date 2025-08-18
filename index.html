@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Charles Nwaeke - Web Developer & Software Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                <span>CN.</span>
+            </a>
+            
+            <button class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="#home">About</a></li>
+                <li><a href="#contact-info">Get in Touch</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="title">Charles Nwaeke</h1>
+                <p class="subtitle">Web Developer & Software Engineer</p>
+                <p>Hello, I'm a web developer and a software engineer. With hands-on experience delivering professional web solutions, I bring both technical skills and a deep understanding of client needs.</p>
+                <p>I've successfully delivered a complete web solution for a naturopathic care practice, featuring consultation scheduling and integrated payment processing.</p>
+                <p>My work focuses on usability, security and scalability. I am currently expanding my expertise into software engineering; across programming languages like Python, Java and modern frameworks. My goal is to evolve into a versatile software engineer capable of building robust and scalable applications across web, mobile and backend systems.</p>
+                <!-- <p>When I'm not coding, I enjoy exploring new tech trends and watching tech videos on YouTube.</p> -->
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="portrait-placeholder">
+                    <img src="assets/images/charles_nwaeke.jpg" alt="charles nwaeke">
+                    <!-- <div class="portrait-initials">CN</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section id="contact-info" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get in Touch</h2>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:charlesnwaeke@outlook.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> charlesnwaeke@outlook.com
+                </a>
+                <a href="https://linkedin.com/in/charles-nwaeke" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/charlesnwaeke" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="resume.pdf" download class="contact-item">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Custom Website Development</h3>
+                    <p>Tailor-made websites designed to meet your specific business needs, with a focus on accessible mobile-first user experience, modern design principles and SEO-ready architecture.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-shop"></i>
+                    <h3>Storefront Setup</h3>
+                    <p>Custom e-commerce storefronts designed and integrated into client websites to provide seamless online shopping experiences and boost sales.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h3>Consultation Scheduling Systems</h3>
+                    <p>Integrated booking solutions that streamline appointment scheduling for businesses and healthcare practices.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Payment Integration</h3>
+                    <p>Secure payment processing solutions using industry-leading platforms like Stripe, Paystack and Flutterwave.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3>Website Maintenance</h3>
+                    <p>Ongoing support, security patches, updates and optimization to keep your website secure and performing at its best.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that work flawlessly on all devices, from desktops to smartphones and tablets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Technologies</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Tech Stack</h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="skill-badge"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="skill-badge"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                        <div class="skill-badge"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-badge"><i class="devicon-jquery-plain"></i> jQuery</div>
+                        <div class="skill-badge"><i class="fab fa-react"></i> React</div>
+                        <div class="skill-badge"><i class="fab fa-node-js"></i> Node.js</div>
+                        <div class="skill-badge"><i class="fab fa-wordpress"></i> WordPress</div>
+                        <div class="skill-badge"><i class="fab fa-java"></i> Java</div>
+                        <div class="skill-badge"><i class="fab fa-python"></i> Python</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge"><i class="fab fa-git"></i> Git</div>
+                        <div class="skill-badge"><i class="fab fa-github"></i> GitHub</div>
+                        <div class="skill-badge"><i class="fab fa-linux"></i> Linux</div>
+                        <div class="skill-badge"><i class="fab fa-chrome"></i> DevTools</div>
+                        <div class="skill-badge"><i class="devicon-vscode-plain"></i></i> VS Code</div>
+                        <div class="skill-badge"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+                        <div class="skill-badge"><i class="fas fa-database"></i> SQL</div>
+                        <div class="skill-badge"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
+                        <div class="skill-badge"><i class="devicon-docker-plain"></i> Docker</div>
+                        <div class="skill-badge"><i class="devicon-jetbrains-plain"></i> JetBrains</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Exploring Next</h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge"><i class="fa-brands fa-rust"></i> Rust</div>
+                        <div class="skill-badge"><i class="devicon-kotlin-plain"></i> Kotlin</div>
+                        <div class="skill-badge"><i class="fa-brands fa-swift"></i> Swift</div>
+                        <div class="skill-badge"><i class="fa-brands fa-flutter"></i> Flutter</div>
+                        <div class="skill-badge"><i class="devicon-typescript-plain"></i> TypeScript</div>
+                        <div class="skill-badge"><i class="devicon-vite-original"></i>Vite</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Top Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #4a6cf7;">
+                        <!-- <i class="fas fa-heartbeat"></i> -->
+                         <img src="assets/images/naturopathic family health.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3>Naturopathic Family Health</h3>
+                        <p>A complete web solution for a naturopathic care practice, enabling patients to schedule consultations and process payments seamlessly.</p>
+                        <ul class="project-features">
+                            <li>Online consultation scheduling using Google Calendar</li>
+                            <li>Secure payment processing with Stripe</li>
+                            <li>Responsive design for all devices</li>
+                            <li>Secure data handling and compliance</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://naturopathicfamilyhealth.org" target="_blank" class="btn">Visit Website</a>
+                            <!-- <a href="https://github.com/charlesnwaeke/nfh-project" target="_blank" class="btn btn-outline">Source Code</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #6c757d;">
+                        <img src="assets/images/portfolio-website.png" alt="">
+                        <!-- <i class="fas fa-user-circle"></i> -->
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>You’re looking at it. Modular, accessible, mobile-first with system-aware dark mode. This responsive portfolio website is built with HTML, CSS, and JavaScript.</p>
+                        <ul class="project-features">
+                            <li>Fully responsive design</li>
+                            <li>Light/dark mode with system preference</li>
+                            <li>Smooth animations and transitions</li>
+                            <li>Modular structure for easy updates</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="https://github.com/charlesnwaeke/portfolio" target="_blank" class="btn btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card coming-soon">
+                    <div class="project-image" style="background-color: #28a745;">
+                        <img src="assets/images/health tracker app.png" alt="">
+                        <!-- <i class="fas fa-mobile-alt"></i> -->
+                    </div>
+                    <div class="project-content">
+                        <h3>Health Tracker Mobile App</h3>
+                        <p>Coming Soon! A mobile application for tracking health metrics and connecting with healthcare providers.</p>
+                        <ul class="project-features">
+                            <li>Built with Kotlin and Flutter</li>
+                            <li>Real-time health data tracking</li>
+                            <li>Appointment scheduling integration</li>
+                            <li>Secure data storage and sync</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline disabled">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card coming-soon">
+                    <div class="project-image" style="background-color: #dc3545;">
+                        <img src="assets/images/tech blog.png" alt="">
+                        <!-- <i class="fas fa-blog"></i> -->
+                    </div>
+                    <div class="project-content">
+                        <h3>Tech Blog</h3>
+                        <p>Coming Soon! A personal blog sharing insights on web development, software engineering, and tech trends.</p>
+                        <ul class="project-features">
+                            <li>Built with React and Node.js</li>
+                            <li>Content management system</li>
+                            <li>Comment and engagement features</li>
+                            <li>Newsletter subscription</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline disabled">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <p class="other-projects">And the rest of my projects can be found on <a href="https://github.com/charlesnwaeke" target="_blank">GitHub</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding Challenges -->
+    <section id="challenges">
+        <div class="container">
+            <div class="section-title">
+                <h2>Coding Challenges</h2>
+            </div>
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <p>I regularly participate in coding challenges to sharpen my problem-solving skills and learn new techniques.</p>
+                <div class="contact-info" style="margin-top: 2rem;">
+                    <a href="https://leetcode.com/u/charlesnwaeke" target="_blank" class="contact-item">
+                        <i class="devicon-leetcode-plain"></i> LeetCode Profile
+                    </a>
+                    <a href="https://www.codewars.com/users/CharlesNwaeke" target="_blank" class="contact-item">
+                        <i class="fas fa-medal"></i> CodeWars Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-container">
+                <div>
+                    <p>Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
+                    I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision and turn them into reality.
+                    </p>
+                    <p>I'm available for freelance projects and open to full-time positions in web development and software engineering roles.</p>
+                    <div class="contact-info" style="margin-top: 2rem; justify-content: flex-start;">
+                        <a href="mailto:charlesnwaeke@outlook.com" class="contact-item">
+                            <i class="fas fa-envelope"></i> charlesnwaeke@outlook.com
+                        </a>
+                        <a href="https://linkedin.com/in/charles-nwaeke" target="_blank" class="contact-item">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/charlesnwaeke" target="_blank" class="contact-item">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                    <form
+                    action="https://formspree.io/f/xwpqjygv"
+                    method="POST"
+                    class="contact-form"
+                    id="contactForm"
+                    >
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required
+                        placeholder="Enter your full name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input 
+                        type="tel" 
+                        id="phone" 
+                        name="phone" 
+                        placeholder="Enter your phone number"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required
+                        placeholder="Enter your email address"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input 
+                        type="text" 
+                        id="subject" 
+                        name="subject" 
+                        required
+                        placeholder="What's this about?"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea 
+                        id="message" 
+                        name="message" 
+                        rows="5" 
+                        required
+                        placeholder="Type your message here..."
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    </form>
+                <!-- <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i> Charles Nwaeke
+                    </div>
+                    <p>Web Developer & Software Engineer focused on creating robust, scalable solutions with exceptional user experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:charlesnwaeke@outlook.com">Email</a></li>
+                        <li><a href="https://linkedin.com/in/charles-nwaeke" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/charlesnwaeke" target="_blank">GitHub</a></li>
+                        <li><a href="https://leetcode.com/charlesnwaeke" target="_blank">LeetCode</a></li>
+                        <li><a href="https://www.codewars.com/users/CharlesNwaeke" target="_blank">CodeWars</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 – Charles Nwaeke. All rights reserved.</p>
+                <p>Built with HTML, CSS and JavaScript. Deployed on Hostinger.</p>
+                <p><a href="https://github.com/charlesnwaeke/portfolio" target="_blank">View Source Code</a></p>
+                <button class="theme-toggle" id="footerThemeToggle" style="margin-top: 1rem;">
+                    <i class="fas fa-moon"></i> Toggle Theme
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
